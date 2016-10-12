@@ -1,13 +1,13 @@
-package rs.odnesi.dao;
+package rs.odnesi.services;
 
 import rs.odnesi.model.Company;
 
 import java.util.List;
 
 /**
- * Created by Milan on 26/09/2016.
+ * Created by Milan on 12/10/2016.
  */
-public interface CompanyDao {
+public interface CompanyService {
     List<Company> getCompanyList();
     Company getCompanyById(int id);
     void addCompany(Company company);
